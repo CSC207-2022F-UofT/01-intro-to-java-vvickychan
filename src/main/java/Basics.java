@@ -45,8 +45,6 @@ public class Basics {
          */
         System.out.println("Hello World!");
 
-
-
         /* 4. In Python, we could declare variables using a simple assignment
          *    statement. For example:
          *        x = 10
@@ -58,14 +56,11 @@ public class Basics {
          *
          *    (Relevant reading: 1.2. Variables and Types)
          */
-
         /*
          * TODO (Task 2): Create a variable named my_variable and assign it the
          *                value 100.
          */
         int my_variable = 100;
-
-
 
         /* Do not remove the line below: if you did task 2 correctly, then
          * you should see the message "my_variable's value is 100" if you run
@@ -144,9 +139,6 @@ public class Basics {
          *                you may use them if you wish.
          */
         StringBuilder ret = new StringBuilder();
-
-
-
         // Fill in the rest of the body here
         // create 7 string variables
         // split string after the index that is " " to a variable
@@ -169,7 +161,6 @@ public class Basics {
 
         return ret.toString();
     }
-
     /**
      * 7. Below is a method that takes in an integer array (similar to a list
      *    of integers). The method's name is 'oddSum' and it returns an int
@@ -197,24 +188,24 @@ public class Basics {
         int temp = 0;
         if (i <= 1) {
             return 0;
+        } else {
+            while (temp != i) ;
+            {
+                current_sum = current_sum + arr[temp];
+                temp++;
+            }
+
+            return current_sum;
         }
-        else {
-            while (temp != i);
-            current_sum = current_sum + arr[temp];
-                temp = temp + 1;
-        }
-
-        return current_sum;
-    }
 
 
-    /*
-     * TODO (Task 6): Submit the changes you made on GitHub!
-     *                When you submit it, go to the 'Actions' tab. You should
-     *                be able to see this exercise being autograded!
-     *
-     *                You can click on the ongoing action to see more details.
-     *                If the tests don't pass, look at the results and revise
-     *                accordingly.
-     */
-}
+        /*
+         * TODO (Task 6): Submit the changes you made on GitHub!
+         *                When you submit it, go to the 'Actions' tab. You should
+         *                be able to see this exercise being autograded!
+         *
+         *                You can click on the ongoing action to see more details.
+         *                If the tests don't pass, look at the results and revise
+         *                accordingly.
+         */
+    }}
