@@ -151,13 +151,13 @@ public class Basics {
         String five = no_space[4];
         String six = no_space[5];
         String seven = no_space[6];
-        ret.append(one.charAt(1));
-        ret.append(two.charAt(1));
-        ret.append(three.charAt(1));
-        ret.append(four.charAt(1));
-        ret.append(five.charAt(1));
-        ret.append(six.charAt(1));
-        ret.append(seven.charAt(1));
+        ret.append(one.charAt(0));
+        ret.append(two.charAt(0));
+        ret.append(three.charAt(0));
+        ret.append(four.charAt(0));
+        ret.append(five.charAt(0));
+        ret.append(six.charAt(0));
+        ret.append(seven.charAt(0));
 
         return ret.toString();
     }
