@@ -188,7 +188,7 @@ public class Basics {
 //            System.out.println("Current count: " + i);
 //        }
         int len = arr.length;
-        for (int i = 1; i != len; i+=2) {
+        for (int i = 1; i <= len; i+=2) {
             current_sum += arr[i];
         }
 
