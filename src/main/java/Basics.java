@@ -184,16 +184,13 @@ public class Basics {
          *                You can index into arrays as we do in Python
          *                (e.g. arr[i] gives you the item at index i).
          */
-        int i = arr.length;
-        int temp = 0;
-        if (i <= 1) {
-            return 0;
-        } else {
-            while (temp != i) ;
-            {
-                current_sum = current_sum + arr[temp];
-                temp++;
-            }
+//        for (int i = 10; i >= 0; i--){
+//            System.out.println("Current count: " + i);
+//        }
+        int len = arr.length;
+        for (int i = 1; i != len; i+=2) {
+            current_sum += arr[i];
+        }
 
             return current_sum;
         }
@@ -208,4 +205,4 @@ public class Basics {
          *                If the tests don't pass, look at the results and revise
          *                accordingly.
          */
-    }}
+    }
