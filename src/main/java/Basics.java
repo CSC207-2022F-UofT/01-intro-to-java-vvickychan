@@ -186,14 +186,12 @@ public class Basics {
          */
         int len = arr.length;
 
-        for (int i = 0; i <= len; i += 2) {
-            if (len > 1) {
-                current_sum += arr[i];
-            }
-
-            return current_sum;
+        for (int i = 0; len >= 1; i++) {
+            current_sum += arr[i];
         }
 
+        return current_sum;
+    }
 
         /*
          * TODO (Task 6): Submit the changes you made on GitHub!
@@ -204,5 +202,5 @@ public class Basics {
          *                If the tests don't pass, look at the results and revise
          *                accordingly.
          */
-        return current_sum;
-    }}
+
+    }
