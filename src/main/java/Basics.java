@@ -189,7 +189,7 @@ public class Basics {
         // set index to 0
         // terminate when length is greater than index
         // add 2 to the index value
-        for (int i = 0; len >= i; i+= 2) {
+        for (int i = 0; len >= i; i++) {
             if (len <= 1) {
                 return current_sum;
             }
