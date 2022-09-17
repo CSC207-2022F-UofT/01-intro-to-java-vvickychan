@@ -193,7 +193,7 @@ public class Basics {
             return 0;
         }
         else{
-        for (int i = 0; len >= i; i += 2) {
+        for (int i = 1; len >= i; i += 2) {
             current_sum += arr[i];
         }
 
