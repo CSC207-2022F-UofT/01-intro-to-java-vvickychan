@@ -192,12 +192,13 @@ public class Basics {
         if (len <= 1) {
             return 0;
         }
+        else{
         for (int i = 0; len >= i; i += 2) {
             current_sum += arr[i];
         }
 
         return current_sum;
-    }
+    }}
 
         /*
          * TODO (Task 6): Submit the changes you made on GitHub!
